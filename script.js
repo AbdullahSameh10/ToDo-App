@@ -1,9 +1,9 @@
-import { ToggleMode, GetModeOnStartup} from "../scripts/DarkMode";
-import { getData } from "../scripts/DataStore";
-import { InitAddTasksBtn, InitTaskListeners } from "../scripts/MainController";
-import { setTasks } from "../scripts/TasksStatues";
-import { UpdateList } from "../scripts/UpdateList";
-import { KEY } from "../scripts/variables";
+import { ToggleMode, GetModeOnStartup} from "./scripts/DarkMode.js";
+import { getData } from "./scripts/DataStore";
+import { InitAddTasksBtn, InitTaskListeners } from "./scripts/MainController.js";
+import { setTasks } from "./scripts/TasksStatues.js";
+import { UpdateList } from "./scripts/UpdateList.js";
+import { KEY } from "./scripts/variables.js";
 
 
 UpdateList(getData(KEY));
@@ -18,4 +18,5 @@ InitAddTasksBtn();
 
 
 InitTaskListeners();
+
 
