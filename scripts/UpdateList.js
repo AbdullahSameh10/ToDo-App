@@ -9,7 +9,7 @@ toggleCompletedTasksBtn.addEventListener('click', () => {
 export const UpdateList = (tasks) => {
   if(!tasks.length){
     TasksListElement.innerHTML = `<li class='EmptyList'>
-                                    <img class='EmptyList__img' src="./assets/icon-empty.svg" alt="list is empty" />
+                                    <img class='EmptyList__img' src="assets/icon-empty.svg" alt="list is empty" />
                                     <p>قائمة المهام فارغة</p>
                                   </li>`;
     return;
@@ -41,3 +41,4 @@ export const UpdateList = (tasks) => {
                                    </li>`;
   });
 };
+
