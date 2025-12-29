@@ -10,10 +10,12 @@
     <meta name="description" content="Todo app" />
     <link rel="icon" href="./assets/favicon.ico" />
     <title>Todo App</title>
-    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   </head>
   <body>
     <main class="App">
+
       <header class="Header">
         <button class="DarkThemeToggle">
           <span class="DarkThemeToggle__activate">تفعيل</span>
@@ -22,7 +24,7 @@
         </button>
         <div class="SocialLinks">
           <a
-            href="https://www.facebook.com/m.abusre3"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +35,7 @@
             />
           </a>
           <a
-            href="https://twitter.com/mohamed_abusrea"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +46,7 @@
             />
           </a>
           <a
-            href="https://www.youtube.com/mohamedabusrea"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +57,7 @@
             />
           </a>
           <a
-            href="https://www.github.com/mohamedabusrea"
+            href="https://www.github.com/abdullahsameh10"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -69,6 +71,7 @@
       </header>
 
       <div id="toast" class="toast"></div>
+
       <div class="App__wrapper">
         <div class="TaskSearchBar">
           <label for="search-input" class="TaskSearchBar__label">
@@ -98,11 +101,12 @@
       <div class="popup"></div>
 
     </main>
-    <script src="script.js" type="module"></script>
+
+    <script src="./script.js" type="module"></script>
   </body>
 </html>
 
-<!--
+<!--                  DONE
  TODO:
      [x] Add dark mode functionality
      [x] add active state to darkModeToggle button (change color & text)
@@ -122,4 +126,5 @@
          [x] Add popup window for deleting and editing
          [x] Add popup window for alert
          [x] Edit task by clicking on it
+         [x] Add Drag & Drop feature
 -->
