@@ -1,0 +1,47 @@
+@import "./mixins.scss";
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--default-padding);
+}
+
+.DarkThemeToggle {
+  @include linkStyle;
+  display: flex;
+  align-items: center;
+
+  .App--isDark & {
+    @include activeLink;
+
+    &__deactivate {
+      display: inline-block;
+    }
+
+    &__activate {
+      display: none;
+    }
+  }
+
+  &__activate,
+  &__deactivate {
+    margin-left: calc(var(--default-padding) / 4);
+    font-size: var(--font-size-small);
+  }
+
+  &__deactivate {
+    display: none;
+  }
+
+  &--isActive {
+    @include activeLink;
+  }
+}
+
+.SocialLinks {
+  display: flex;
+  gap: calc(var(--default-padding) / 2);
+
+  &__img {
+    width: 24px;
+  }
+}
