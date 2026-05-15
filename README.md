@@ -103,17 +103,13 @@ Open the `index.html` file in your browser.
 
 ### 🌞 Light Mode
 
-```md
-![Light Mode](screenshots/light-mode.png)
-```
+![Light Mode](./Preview%20(Light).jpg)
 
 ---
 
 ### 🌙 Dark Mode
 
-```md
-![Dark Mode](screenshots/dark-mode.png)
-```
+![Dark Mode](Preview%20(Dark).jpg)
 
 ---
 
